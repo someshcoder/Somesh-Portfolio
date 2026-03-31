@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <h1>🚀 Somesh Bhatnagar | Portfolio</h1>
+  <h3><b>Full Stack MERN Developer | React Specialist</b></h3>
+  <p>Passionate about building robust, scalable web applications with clean architecture and modern technologies.</p>
 
-## Getting Started
+  <a href="https://www.linkedin.com/in/somesh-bhatnagar-18b388328/">
+    <img src="https://img.shields.io/badge/LinkedIn-Blue?logo=linkedin&logoColor=white&style=for-the-badge" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/someshcoder">
+    <img src="https://img.shields.io/badge/GitHub-Black?logo=github&logoColor=white&style=for-the-badge" alt="GitHub">
+  </a>
+  <a href="mailto:someshbhatnagar535@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white&style=for-the-badge" alt="Email">
+  </a>
+</div>
 
-First, run the development server:
+<br>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 👨‍💻 About Me
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Hello! I'm **Somesh Bhatnagar**, a dedicated **Full Stack MERN Developer** who specializes in building fast, scalable, and visually polished web applications from the ground up — handling everything from database design to pixel-perfect UI. 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+I treat every client project as if it were my own product. I communicate clearly, deliver on time, write clean and well-documented code, and stay involved until the project is exactly where it needs to be. **Available for freelance and open to new opportunities!**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack & Skills
 
-To learn more about Next.js, take a look at the following resources:
+### **Frontend Development**
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=white)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### **Backend & Database**
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### **Core Competencies**
+- RESTful API Development
+- Secure JWT Authentication
+- Clean Code & Scalable Architecture
+- Responsive & Mobile-First Design
+- Seamless third-party integrations (e.g., Razorpay)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💻 Featured Projects
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Here are some of the full-stack applications I've built that demonstrate my skills:
+
+| Project | Description | Tech Stack | Repository |
+|---------|-------------|------------|------------|
+| **[Student Union App](https://github.com/someshcoder/student-union-application)** | A full-stack student union platform with event management, announcements, and role-based access for admins. | `React`, `Node.js`, `Express`, `MongoDB` | [View Repo](https://github.com/someshcoder/student-union-application) |
+| **[E-commerce Website](https://github.com/someshcoder/E-commerce.git)** | A full-featured e-commerce platform with product management, shopping cart, and secure checkout. | `React`, `Vite`, `MongoDB`, `JWT`, `Razorpay` | [View Repo](https://github.com/someshcoder/E-commerce.git) |
+| **[Real Estate Platform](https://github.com/someshcoder/Real-Estate-Application.git)** | Modern real estate platform with property listings, advanced search, and interactive maps. | `React 19`, `Node.js`, `Tailwind CSS` | [View Repo](https://github.com/someshcoder/Real-Estate-Application.git) |
+| **[Learning Mgmt System](https://github.com/someshcoder/Learning-Management-System.git)** | Comprehensive LMS with course management, video streaming, and progress tracking. | `MERN Stack`, `Multer`, `JWT` | [View Repo](https://github.com/someshcoder/Learning-Management-System.git) |
+| **[Memory Card Game](https://github.com/someshcoder/Memory-Card-Game.git)** | Interactive memory card game with multiple difficulty levels and responsive layout. | `React`, `CSS3`, `JavaScript` | [View Repo](https://github.com/someshcoder/Memory-Card-Game.git) |
+
+---
+
+## 🚀 Running the Portfolio Locally
+
+This portfolio website is built with **Next.js 15**, **React 19**, and **Tailwind CSS 4**. To run it locally:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/someshcoder/someshcoder.git
+   cd someshcoder/somesh-portfolio
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **View in browser:**
+   Open [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 📫 Let's Connect!
+
+I'm always open to discussing new software development opportunities, freelance projects, or tech collaborations.
+
+- 📧 **Email:** [someshbhatnagar535@gmail.com](mailto:someshbhatnagar535@gmail.com)
+- 💼 **LinkedIn:** [Somesh Bhatnagar](https://www.linkedin.com/in/somesh-bhatnagar-18b388328/)
+- 🐙 **GitHub:** [@someshcoder](https://github.com/someshcoder)
+
+<br>
+<p align="center">
+  <i>Designed and built with ❤️ by Somesh Bhatnagar</i>
+</p>
