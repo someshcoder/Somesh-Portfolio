@@ -21,7 +21,7 @@ const projects = [
     title: 'E-commerce Website',
     description:
       'A full-featured e-commerce platform with product management, shopping cart, and secure checkout.',
-    tech: ['React', 'Node.js', 'MongoDB', 'Razorpay'],
+    tech: ['React + Vite', 'Node.js + Express', 'MongoDB (Mongoose)', 'Razorpay', 'Tailwind CSS', 'JWT Auth'],
     image: '/E-Commerce.webp',
     github: 'https://github.com/someshcoder/E-commerce.git',
     category: 'Full Stack',
@@ -32,7 +32,7 @@ const projects = [
     title: 'Real Estate Application',
     description:
       'Modern real estate platform with property listings, advanced search, and interactive maps.',
-    tech: ['Next.js', 'TypeScript', 'Tailwind', 'MongoDB'],
+    tech: ['React 19', 'Node.js + Express', 'MongoDB', 'JWT + Sessions', 'Tailwind CSS + custom styles'],
     image: '/Real-Estate.png',
     github: 'https://github.com/someshcoder/Real-Estate-Application.git',
     category: 'Full Stack',
@@ -43,7 +43,7 @@ const projects = [
     title: 'Learning Management System',
     description:
       'Comprehensive LMS with course management, video streaming, and progress tracking.',
-    tech: ['React', 'Express', 'MongoDB', 'JWT'],
+    tech: ['React + Vite', 'Node.js + Express', 'MongoDB (Mongoose)', 'Razorpay', 'Tailwind CSS', 'JWT Auth', 'Multer', 'Cookies + CORS'],
     image: '/LMS.jpg',
     github: 'https://github.com/someshcoder/Learning-Management-System.git',
     category: 'Full Stack',
