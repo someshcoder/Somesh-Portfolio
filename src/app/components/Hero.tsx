@@ -47,7 +47,7 @@ export default function Hero() {
           setCurrentRole((prev) => (prev + 1) % roles.length);
         }
       }
-    }, isDeleting ? 40 : 80);
+    }, isDeleting ? 40 : 75);
 
     return () => clearTimeout(timeout);
   }, [displayText, isDeleting, currentRole]);
@@ -55,10 +55,10 @@ export default function Hero() {
   // Background particles
   const particles = React.useMemo(() => {
     if (!mounted) return [];
-    return [...Array(40)].map(() => ({
+    return [...Array(35)].map(() => ({
       x: Math.random() * windowSize.width,
       y: Math.random() * windowSize.height,
-      duration: Math.random() * 12 + 12,
+      duration: Math.random() * 12 + 10,
     }));
   }, [mounted, windowSize]);
 
@@ -72,7 +72,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative h-screen flex items-center justify-center overflow-hidden bg-[#0a0a0a]"   // ← Changed to h-screen
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0a0a0a] pt-16 pb-12"
     >
       {/* Background Particles */}
       <div className="absolute inset-0 pointer-events-none">
@@ -95,25 +95,25 @@ export default function Hero() {
           ))}
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 w-full pt-16">   {/* pt-16 for navbar space */}
-
-        {/* Available for Work Banner - Small */}
-        <div className="flex justify-center mb-6">
+      <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-6 lg:px-12 w-full">
+        
+        {/* Available for Work Banner */}
+        <div className="flex justify-center mb-8">
           <div className="inline-flex items-center gap-2 px-5 py-2 bg-emerald-500/10 border border-emerald-500/30 rounded-full">
             <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse" />
-            <span className="text-emerald-400 text-xs font-medium tracking-widest">
+            <span className="text-emerald-400 text-xs sm:text-sm font-medium tracking-widest text-center">
               AVAILABLE FOR FREELANCE • OPEN TO OPPORTUNITIES
             </span>
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-16">
           
           {/* Left Content */}
           <div className="flex-1 text-center lg:text-left">
-            <p className="text-blue-400 text-lg mb-2 font-medium">Hello, I am</p>
+            <p className="text-blue-400 text-base sm:text-lg mb-2">Hello, I am</p>
 
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tighter mb-4">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tighter mb-4">
               <span className="text-white">Somesh </span>
               <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
                 Bhatnagar
@@ -121,15 +121,15 @@ export default function Hero() {
             </h1>
 
             {/* Typing Effect */}
-            <div className="h-10 mb-5">
-              <h2 className="text-2xl sm:text-3xl font-semibold text-gray-300">
+            <div className="h-10 sm:h-12 mb-5">
+              <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-gray-300">
                 {displayText}
                 <span className="animate-pulse text-blue-400">|</span>
               </h2>
             </div>
 
             {/* Tags */}
-            <div className="flex flex-wrap gap-3 justify-center lg:justify-start mb-7">
+            <div className="flex flex-wrap gap-2 sm:gap-3 justify-center lg:justify-start mb-7">
               {[
                 'Full Stack Web Developer',
                 'BCA Student',
@@ -137,35 +137,35 @@ export default function Hero() {
               ].map((tag, i) => (
                 <span
                   key={i}
-                  className="px-4 py-1.5 bg-gray-900/80 border border-gray-700 rounded-full text-xs text-gray-300"
+                  className="px-4 py-1.5 bg-gray-900/80 border border-gray-700 rounded-full text-xs sm:text-sm text-gray-300"
                 >
                   {tag}
                 </span>
               ))}
             </div>
 
-            {/* Professional Description - Smaller text */}
-            <p className="text-gray-400 text-base max-w-xl mx-auto lg:mx-0 leading-relaxed mb-8">
+            {/* Description */}
+            <p className="text-gray-400 text-sm sm:text-base max-w-lg mx-auto lg:mx-0 leading-relaxed mb-8">
               Passionate Full Stack Developer building robust, scalable web applications with clean architecture and modern technologies.
             </p>
 
-            {/* Action Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-10">
+            {/* Buttons */}
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start mb-10">
               <motion.button
                 whileHover={{ scale: 1.03 }}
-                whileTap={{ scale: 0.98 }}
+                whileTap={{ scale: 0.97 }}
                 onClick={() => scrollToSection('projects')}
-                className="group px-8 py-3.5 bg-blue-600 hover:bg-blue-500 transition-all rounded-2xl font-semibold text-white flex items-center justify-center gap-3"
+                className="group px-7 sm:px-8 py-3.5 bg-blue-600 hover:bg-blue-500 transition-all rounded-2xl font-semibold text-white flex items-center justify-center gap-2 text-sm sm:text-base w-full sm:w-auto"
               >
                 View My Work
-                <ArrowRight className="group-hover:translate-x-1 transition-transform" size={19} />
+                <ArrowRight className="group-hover:translate-x-1 transition-transform" size={18} />
               </motion.button>
 
               <motion.button
                 whileHover={{ scale: 1.03 }}
-                whileTap={{ scale: 0.98 }}
+                whileTap={{ scale: 0.97 }}
                 onClick={() => scrollToSection('contact')}
-                className="px-8 py-3.5 border border-gray-600 hover:border-blue-500 hover:text-blue-400 transition-all rounded-2xl font-semibold text-gray-300"
+                className="px-7 sm:px-8 py-3.5 border border-gray-600 hover:border-blue-500 hover:text-blue-400 transition-all rounded-2xl font-semibold text-gray-300 text-sm sm:text-base w-full sm:w-auto"
               >
                 Contact Me
               </motion.button>
@@ -193,14 +193,14 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right Side - Profile Image (Slightly smaller) */}
-          <div className="relative flex-shrink-0">
-            <div className="relative w-72 h-72 lg:w-80 lg:h-80">
+          {/* Right Side - Profile Image */}
+          <div className="relative flex-shrink-0 mt-6 lg:mt-0">
+            <div className="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500 via-purple-500 to-transparent rounded-full blur-3xl opacity-25" />
 
               <motion.div
-                className="relative w-full h-full rounded-full overflow-hidden border-[5px] border-blue-500/60 shadow-2xl shadow-blue-500/20"
-                whileHover={{ scale: 1.04 }}
+                className="relative w-full h-full rounded-full overflow-hidden border-4 border-blue-500/60 shadow-2xl"
+                whileHover={{ scale: 1.05 }}
                 transition={{ type: 'spring', stiffness: 300, damping: 20 }}
               >
                 <img
@@ -214,14 +214,14 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll Down Indicator - Smaller */}
+      {/* Scroll Down Indicator */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1"
+        className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1"
       >
-        <span className="text-gray-500 text-[10px] tracking-widest">SCROLL</span>
+        <span className="text-gray-500 text-xs tracking-widest">SCROLL</span>
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
