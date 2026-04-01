@@ -10,7 +10,7 @@ const projects = [
     title: 'Student Union Application',
     description:
       'A full-stack student union platform with event management, announcements, student participation, and role-based access for admins and users.',
-    tech: ['React', 'Node.js', 'Express', 'MongoDB'],
+    tech: ['React.js', 'Node.js + Express', 'MongoDB', 'JWT + Sessions', 'Tailwind CSS + custom styles'],
     image: '/Student-Union.webp',
     github: 'https://github.com/someshcoder/student-union-application',
     category: 'Full Stack',
@@ -43,7 +43,7 @@ const projects = [
     title: 'Learning Management System',
     description:
       'Comprehensive LMS with course management, video streaming, and progress tracking.',
-    tech: ['React + Vite', 'Node.js + Express', 'MongoDB (Mongoose)', 'Razorpay', 'Tailwind CSS', 'JWT Auth', 'Multer', 'Cookies + CORS'],
+    tech: ['React + Vite', 'Node.js + Express', 'MongoDB (Mongoose)', 'Tailwind CSS', 'JWT Auth', 'Multer', 'Cookies + CORS'],
     image: '/LMS.jpg',
     github: 'https://github.com/someshcoder/Learning-Management-System.git',
     category: 'Full Stack',
@@ -54,7 +54,7 @@ const projects = [
     title: 'Memory Card Game',
     description:
       'Interactive memory card game with multiple difficulty levels and score tracking.',
-    tech: ['React', 'CSS3', 'JavaScript', 'Local Storage'],
+    tech: ['React 19', 'Tailwind CSS', 'TypeScript 5.9', 'React Context API'],
     image: '/Memory-Card.png',
     github: 'https://github.com/someshcoder/Memory-Card-Game.git',
     category: 'Frontend',
