@@ -27,7 +27,8 @@ I treat every client project as if it were my own product. I communicate clearly
 ## 🛠️ Tech Stack & Skills
 
 ### **Frontend Development**
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=white)
 
@@ -46,17 +47,17 @@ Here are some of the full-stack applications I've built that demonstrate my skil
 
 | Project | Description | Tech Stack | Repository |
 |---------|-------------|------------|------------|
-| **[Student Union App](https://github.com/someshcoder/student-union-application)** | A full-stack student union platform with event management, announcements, and role-based access for admins. | `React`, `Node.js`, `Express`, `MongoDB` | [View Repo](https://github.com/someshcoder/student-union-application) |
-| **[E-commerce Website](https://github.com/someshcoder/E-commerce.git)** | A full-featured e-commerce platform with product management, shopping cart, and secure checkout. | `React`, `Vite`, `MongoDB`, `JWT`, `Razorpay` | [View Repo](https://github.com/someshcoder/E-commerce.git) |
-| **[Real Estate Platform](https://github.com/someshcoder/Real-Estate-Application.git)** | Modern real estate platform with property listings, advanced search, and interactive maps. | `React 19`, `Node.js`, `Tailwind CSS` | [View Repo](https://github.com/someshcoder/Real-Estate-Application.git) |
-| **[Learning Mgmt System](https://github.com/someshcoder/Learning-Management-System.git)** | Comprehensive LMS with course management, video streaming, and progress tracking. | `MERN Stack`, `Multer`, `JWT` | [View Repo](https://github.com/someshcoder/Learning-Management-System.git) |
-| **[Memory Card Game](https://github.com/someshcoder/Memory-Card-Game.git)** | Interactive memory card game with multiple difficulty levels and responsive layout. | `React`, `CSS3`, `JavaScript` | [View Repo](https://github.com/someshcoder/Memory-Card-Game.git) |
+| **[Student Union App](https://github.com/someshcoder/student-union-application)** | A full-stack student union platform with event management, announcements, and role-based access for admins. | `React`, `Node.js`, `Express`, `MongoDB` | 
+| **[E-commerce Website](https://github.com/someshcoder/E-commerce.git)** | A full-featured e-commerce platform with product management, shopping cart, and secure checkout. | `React`, `Vite`, `MongoDB`, `JWT`, `Razorpay` |
+| **[Real Estate Platform](https://github.com/someshcoder/Real-Estate-Application.git)** | Modern real estate platform with property listings, advanced search, and interactive maps. | `React 19`, `Node.js`, `Tailwind CSS` |
+| **[Learning Mgmt System](https://github.com/someshcoder/Learning-Management-System.git)** | Comprehensive LMS with course management, video streaming, and progress tracking. | `MERN Stack`, `Multer`, `JWT` |
+| **[Memory Card Game](https://github.com/someshcoder/Memory-Card-Game.git)** | Interactive memory card game with multiple difficulty levels and responsive layout. | `React`, `CSS3`, `JavaScript` |
 
 ---
 
 ## 🚀 Running the Portfolio Locally
 
-This portfolio website is built with **Next.js 15**, **React 19**, and **Tailwind CSS 4**. To run it locally:
+This portfolio website is built with **Next.js 15**, **TypeScript**, and **Tailwind CSS 4**. To run it locally:
 
 1. **Clone the repository:**
    ```bash
