@@ -45,8 +45,8 @@ I treat every client project as if it were my own product. I communicate clearly
 
 Here are some of the full-stack applications I've built that demonstrate my skills:
 
-| Project | Description | Tech Stack | Repository |
-|---------|-------------|------------|------------|
+| Project | Description | Tech Stack |
+|---------|-------------|------------|
 | **[Student Union App](https://github.com/someshcoder/student-union-application)** | A full-stack student union platform with event management, announcements, and role-based access for admins. | `React`, `Node.js`, `Express`, `MongoDB` | 
 | **[E-commerce Website](https://github.com/someshcoder/E-commerce.git)** | A full-featured e-commerce platform with product management, shopping cart, and secure checkout. | `React`, `Vite`, `MongoDB`, `JWT`, `Razorpay` |
 | **[Real Estate Platform](https://github.com/someshcoder/Real-Estate-Application.git)** | Modern real estate platform with property listings, advanced search, and interactive maps. | `React 19`, `Node.js`, `Tailwind CSS` |
