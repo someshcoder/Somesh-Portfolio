@@ -71,7 +71,7 @@ export default function Contact() {
             }}
           >
             <span className="w-1.5 h-1.5 rounded-full bg-indigo-400 inline-block" />
-            Let's Work Together
+            Let&apos;s Work Together
           </motion.div>
 
           <h2
@@ -104,7 +104,7 @@ export default function Contact() {
             style={{ background: 'linear-gradient(90deg, transparent, #6366f1, transparent)' }}
           />
           <p style={{ color: 'rgba(148,163,184,0.6)', fontSize: 15 }}>
-            Have a project in mind or want to collaborate? I'd love to hear from you.
+            Have a project in mind or want to collaborate? I&apos;d love to hear from you.
           </p>
         </motion.div>
 
@@ -171,7 +171,7 @@ export default function Contact() {
                   initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }}
                   className="p-4 bg-green-500/10 border border-green-500/20 rounded-lg text-green-400 text-center"
                 >
-                  Message sent successfully! I'll get back to you soon.
+                  Message sent successfully! I&apos;ll get back to you soon.
                 </motion.div>
               )}
             </form>
@@ -282,7 +282,7 @@ export default function Contact() {
                     </div>
                   </div>
                   <p className="text-gray-400 text-sm mb-4 leading-relaxed">
-                    Need a faster reply? Message me directly on WhatsApp — I'll respond ASAP!
+                    Need a faster reply? Message me directly on WhatsApp — I&apos;ll respond ASAP!
                   </p>
                   <motion.div
                     whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}
@@ -307,7 +307,7 @@ export default function Contact() {
               <div className="relative p-6 bg-gray-900 rounded-2xl border border-gray-800">
                 <h4 className="text-white font-semibold mb-2">Open to opportunities</h4>
                 <p className="text-gray-400">
-                  Currently available for freelance projects and full-time roles. If you have something exciting in mind, let's talk!
+                  Currently available for freelance projects and full-time roles. If you have something exciting in mind, let&apos;s talk!
                 </p>
               </div>
             </div>

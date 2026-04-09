@@ -136,7 +136,7 @@ export default function About() {
             {/* Bio paragraphs */}
             <div className="space-y-5 text-gray-300 leading-relaxed text-lg">
               <p>
-                Hello! I'm a dedicated{' '}
+                Hello! I&apos;m a dedicated{' '}
                 <span className="text-blue-400 font-semibold">Full Stack MERN Developer</span>{' '}
                 who specializes in building fast, scalable, and visually polished web applications
                 from the ground up — handling everything from database design to pixel-perfect UI.
@@ -181,7 +181,7 @@ export default function About() {
                   icon: Sparkles,
                   title: 'What Sets Me Apart',
                   color: 'blue',
-                  text: 'Beyond code, I care about the end user. I build responsive, accessible, and performant interfaces that look great on every device — because great software is not just functional, it\'s a pleasure to use.',
+                  text: 'Beyond code, I care about the end user. I build responsive, accessible, and performant interfaces that look great on every device — because great software is not just functional, it&apos;s a pleasure to use.',
                 },
               ].map((item, i) => {
                 const Icon = item.icon;
